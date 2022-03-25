@@ -2,6 +2,6 @@
 #include <tchar.h>
 #endif
 #include <string>
-//Комментарий
+//Заголовочный файл DLL
 extern "C" __declspec(dllexport) int libmain();
 extern "C" __declspec(dllexport) wchar_t* printFIO();
