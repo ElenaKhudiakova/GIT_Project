@@ -27,6 +27,7 @@ extern "C"
 {
 	int printGroup()
 	{
+		//Комментарий
 		std::cout<<"571227"<<"\n";
 		return 1;
 	}
