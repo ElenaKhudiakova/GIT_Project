@@ -19,7 +19,7 @@ __fastcall TForm2::TForm2(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm2::Button1Click(TObject *Sender)
 {
-
+	//Динамическое подключение DLL
 	typedef INT(CALLBACK* PCreateMessageGroup)();
 	typedef wchar_t*(CALLBACK* PCreateMessageFIO)();
 	HINSTANCE hDLL = NULL;
