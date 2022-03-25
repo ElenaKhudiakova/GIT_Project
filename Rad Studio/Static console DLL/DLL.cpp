@@ -27,11 +27,12 @@ extern "C"
 {
 	int printGroup()
 	{
-		//Комментарий
+		//Вывод группы
 		std::cout<<"571227"<<"\n";
 		return 1;
 	}
 	void printFIO(){
+		//Вывод ФИО
 		std::cout<<"Худякова Елена Алексеевна"<<"\n";
 	}
 }
