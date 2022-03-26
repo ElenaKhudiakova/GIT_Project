@@ -19,7 +19,7 @@ __fastcall TForm2::TForm2(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm2::Button1Click(TObject *Sender)
 {
-	//Äèíàìè÷åñêîå ïîäêëþ÷åíèå DLL
+	//Ã„Ã¨Ã­Ã Ã¬Ã¨Ã·Ã¥Ã±ÃªÃ®Ã¥ Ã¯Ã®Ã¤ÃªÃ«Ã¾Ã·Ã¥Ã­Ã¨Ã¥ DLL
 	typedef INT(CALLBACK* PCreateMessageGroup)();
 	typedef wchar_t*(CALLBACK* PCreateMessageFIO)();
 	HINSTANCE hDLL = NULL;
@@ -45,14 +45,16 @@ void __fastcall TForm2::Button1Click(TObject *Sender)
 		}
 		else
 		{
-			Edit1->Text = "Ôóíêöèÿ íå íàéäåíà";
+			Edit1->Text = "Ã”Ã³Ã­ÃªÃ¶Ã¨Ã¿ Ã­Ã¥ Ã­Ã Ã©Ã¤Ã¥Ã­Ã ";
 		}
 	}
 	else
 	{
-	   Edit1->Text = "Îøèáêà DLL";
+	   Edit1->Text = "ÃŽÃ¸Ã¨Ã¡ÃªÃ  DLL";
 	}
 
    FreeLibrary(hDLL);
 }
 //---------------------------------------------------------------------------
+
+
