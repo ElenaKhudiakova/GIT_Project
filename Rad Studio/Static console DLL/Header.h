@@ -6,3 +6,5 @@
 //Заголовочный файл DLL
 extern "C" __declspec(dllexport) int printGroup();
 extern "C" __declspec(dllexport) void printFIO();
+
+
